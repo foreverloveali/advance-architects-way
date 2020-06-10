@@ -9,5 +9,6 @@
         <module name="advance-architects-way" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>

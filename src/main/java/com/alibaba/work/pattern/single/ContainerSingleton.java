@@ -1,7 +1,6 @@
-package com.alibaba.work.pattern;
+package com.alibaba.work.pattern.single;
 
 import java.util.HashMap;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Desc 解决容器式单例的线程安全问题

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.alibaba.work.pattern.factory.AliPay</OriginalElement>
+  <nodes>
+    <node x="0.0" y="113.0">com.alibaba.work.pattern.factory.AliPay</node>
+    <node x="150.5" y="0.0">com.alibaba.work.pattern.factory.IPay</node>
+    <node x="301.0" y="113.0">com.alibaba.work.pattern.factory.WeChatPay</node>
+    <node x="149.0" y="113.0">com.alibaba.work.pattern.factory.UnionPay</node>
+    <node x="0.0" y="221.0">com.alibaba.work.pattern.factory.PayFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.alibaba.work.pattern.factory.AliPay" target="com.alibaba.work.pattern.factory.IPay">
+      <point x="0.0" y="-31.5" />
+      <point x="64.5" y="88.0" />
+      <point x="172.0" y="88.0" />
+      <point x="-43.0" y="31.5" />
+    </edge>
+    <edge source="com.alibaba.work.pattern.factory.UnionPay" target="com.alibaba.work.pattern.factory.IPay">
+      <point x="0.0" y="-31.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="com.alibaba.work.pattern.factory.WeChatPay" target="com.alibaba.work.pattern.factory.IPay">
+      <point x="0.0" y="-31.5" />
+      <point x="371.5" y="88.0" />
+      <point x="258.0" y="88.0" />
+      <point x="43.0" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="221.0" y="142.0" />
+  <SelectedNodes>
+    <node>com.alibaba.work.pattern.factory.AliPay</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
